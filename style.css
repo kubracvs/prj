@@ -12,6 +12,7 @@ body{
     width: 100%;
      font-family: 'Roboto', sans-serif;
      font-size:larger;
+     flex-wrap: wrap;
 }
 
 .header{
@@ -89,7 +90,7 @@ a:hover {
  }
  .mikro{
     position: relative;
-    right:55px;
+    right: 70px;
 
    
  }
