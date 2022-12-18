@@ -164,6 +164,10 @@ a:hover {
     justify-content: space-between;
     
 }
+
+.footer{
+    flex-wrap: wrap;
+}
 .footer a{
     color: #5f6368;
 }
