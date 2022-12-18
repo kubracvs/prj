@@ -11,7 +11,7 @@
 body{
     width: 100%;
      font-family: 'Roboto', sans-serif;
-     font-size:larger;
+   
      flex-wrap: wrap;
 }
 
@@ -79,7 +79,7 @@ a:hover {
 .main{
     width: 100%;
     text-align: center;
-    margin-top:90px;
+    margin-top: 60px;
 }
  .search {
     display: flex;
