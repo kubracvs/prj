@@ -166,7 +166,7 @@ a:hover {
 }
 
 .footer{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .footer a{
     color: #5f6368;
