@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    
+   
+}
+
+
+body{
+    width: 100%;
+     font-family: 'Roboto', sans-serif;
+     font-size:larger;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  
+    
+}
+
+.left{
+    display: flex;
+    gap: 10px;
+    
+}
+.header-btn {
+     background-color: rgb(14, 119, 232);
+     color: white;
+     width: 100px;
+     height: 30px;
+     border-radius: 5px;
+     border: transparent;
+     font-size: large;
+}
+.header-btn:hover{
+    background-color: rgb(14, 119, 232, 0.732);
+    cursor : pointer ;
+
+}
+.header-links{
+    opacity:0.6 ;
+   
+   
+}
+.header-links:hover{
+    background-color: rgb(192, 189, 189);
+  
+
+   
+}
+
+.logo{
+    width: 350px;
+    margin: 25px;
+}
+.main{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+ .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+ }
+ .mikro{
+    position: relative;
+    right:55px;
+
+   
+ }
+.byt {
+    position: relative;
+    left: 50px;
+}
+
+.btn{
+    margin: 20px;
+   
+    
+    
+}
+.input {
+    width: 700px;
+    height: 60px;
+    border-radius: 10em;
+    border: 0.5px solid grey;
+    padding-left:50px;
+    padding-right: 25px;  
+    margin: 20px;
+    font-size:25px ;
+    outline:none ;
+    box-shadow: 2px 2px 2px  rgb(123, 129, 123)
+ }
+ .input :hover{
+    box-shadow: 1px 1px 5px grey;
+ }
+
+ #gs:hover{
+    color: black;
+    cursor: pointer;
+ }
+ 
+ #im:hover{
+    color: black;
+    cursor: pointer;
+ }
+#gs{
+    margin-right: 15px ;
+    color: grey;
+    border: transparent;
+    width: 150px;
+    height: 40px;
+    font-size:18px ;
+
+}
+#im {
+    border: transparent;
+    color: grey;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.dil{
+    color: blue;
+    margin: 2px;
+}
+
