@@ -172,11 +172,12 @@ a:hover {
     margin-left: 23px;
     color: #5f6368;
     margin: 15px;
+
     
 }
 .dv {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 
 .left2 {
