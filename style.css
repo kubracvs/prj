@@ -121,8 +121,11 @@ a:hover {
     outline:none ;
     box-shadow: 2px 2px 2px  rgb(123, 129, 123)
  }
- .input :hover{
-    box-shadow: 1px 1px 5px grey;
+ .input:hover{
+    box-shadow: 5px 5px 5px grey;
+    white-space:5px ;
+
+  
  }
 
  #gs:hover{
@@ -133,6 +136,7 @@ a:hover {
  #im:hover{
     color: black;
     cursor: pointer;
+    
  }
 #gs{
     margin-right: 15px ;
