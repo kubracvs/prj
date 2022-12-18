@@ -163,13 +163,14 @@ a:hover {
     /* border: 3px solid red; */
     width: 100%;   
     background-color: #e4e1e1;
-    line-height: 40px;
+    line-height: 10px;
     font-size: 12px;   
     position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
     /* flex-wrap: nowrap; */
+   
    
     
 
@@ -199,8 +200,9 @@ a:hover {
     /* border: 5px solid red; */
     display: flex;
     justify-content: right;
-    gap: 10px;
-    padding-left: 18px;
+    gap: 5px;
+    padding-left: 9px;
+    padding-bottom: 8px;
     
    
    
@@ -211,9 +213,9 @@ a:hover {
    /* border: 5px solid red; */
    /* margin-right:15px ; */
    /* padding bottom: */
-   gap:10px;
-   padding-top:70px ;
-   padding-right: 18px;
+   gap:5px;
+   padding-top:41px ;
+   padding-right: 9px;
   
 
 }
