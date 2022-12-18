@@ -11,8 +11,11 @@
 body{
     width: 100%;
      font-family: 'Roboto', sans-serif;
-   
      flex-wrap: wrap;
+
+    
+     
+     
 }
 
 .header{
@@ -153,23 +156,31 @@ a:hover {
     margin: 2px;
 }
 
+
+
 .footer{
+
+    /* border: 3px solid red; */
     width: 100%;   
     background-color: #e4e1e1;
     line-height: 40px;
-    font-size: 14px;   
+    font-size: 12px;   
     position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: nowrap; */
+   
+    
+
     
 }
 
-.footer{
-    flex-wrap: wrap;
-}
+
 .footer a{
     color: #5f6368;
+   
+    
 }
 .footer h4{
     border-bottom: 1px solid #c5c2c2;
@@ -190,6 +201,7 @@ a:hover {
     justify-content: right;
     gap: 10px;
     padding-left: 18px;
+    
    
    
    
